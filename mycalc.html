@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" type="text/css" href="mycalc.css">
+</head>
+<body>
+    <div class="MYCALCULATOR">
+        <input type="text" id="result" disabled>
+        <div class="buttons">
+            <button onclick="dp('7')">7</button>
+            <button onclick="dp('8')">8</button>
+            <button onclick="dp('9')">9</button>
+            <button onclick="dp('.')">.</button>
+            <button onclick="dp('4')">4</button>
+            <button onclick="dp('5')">5</button>
+            <button onclick="dp('6')">6</button>
+            <button onclick="dp('/')">/</button>
+            <button onclick="dp('1')">1</button>
+            <button onclick="dp('2')">2</button>
+            <button onclick="dp('3')">3</button>
+            <button onclick="dp('*')">*</button>
+            <button onclick="dp('-')">-</button>
+            <button onclick="dp('+')">+</button>
+            <button onclick="dp('0')">0</button>
+            <button onclick="calc()">=</button>
+            <button onclick="clearResult()">C</button>
+        </div>
+    </div>
+    <script src="mycalc.js"></script>
+    
+</body>
+</html>
